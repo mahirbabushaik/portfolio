@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle -->
+    <button id="themeToggle" class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Mahir</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Shaik Mahir Babu</span></h1>
+                <h2 class="hero-subtitle">Full Stack Developer & Web Enthusiast</h2>
+                <p class="hero-desc">Building innovative web solutions with React, Node.js, and modern technologies. Turning ideas into scalable, user-friendly applications that make an impact.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../mahir.jpeg" alt="Mahir - Developer" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title clickable-section" data-section="about" title="Click to open in new tab" style="cursor: pointer;">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Innovative Full Stack Developer & Web Enthusiast</h3>
+                    <p>Hi! I'm Shaik Mahir Babu, a passionate full-stack developer with expertise in building scalable web applications. With a strong foundation in Computer Science and hands-on experience in modern web technologies, I'm dedicated to creating exceptional digital experiences.</p>
+                    <p>I specialize in React, Node.js, and responsive design. I love solving complex problems, learning new technologies, and contributing to open-source projects. When I'm not coding, you'll find me exploring new frameworks or writing technical blogs.</p>
+                    <div class="about-stats">
+                        <div class="stat" data-stat="experience" style="cursor: pointer;">
+                            <h4>3+</h4>
+                            <span>Years Experience</span>
+                            <small class="stat-hint">Click to learn more</small>
+                        </div>
+                        <div class="stat" data-stat="projects" style="cursor: pointer;">
+                            <h4>30+</h4>
+                            <span>Projects Completed</span>
+                            <small class="stat-hint">Click to view portfolio</small>
+                        </div>
+                        <div class="stat" data-stat="satisfaction" style="cursor: pointer;">
+                            <h4>100%</h4>
+                            <span>Client Satisfaction</span>
+                            <small class="stat-hint">Click for testimonials</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="../mahir.jpeg" alt="Mahir" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title clickable-section" data-section="skills" title="Click to open in new tab" style="cursor: pointer;">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge" data-skill="HTML5" title="Click to learn more"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-badge" data-skill="CSS3" title="Click to learn more"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-badge" data-skill="JavaScript" title="Click to learn more"><i class="fab fa-js-square"></i> JavaScript</span>
+                        <span class="skill-badge" data-skill="React" title="Click to learn more"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-badge" data-skill="Bootstrap" title="Click to learn more"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge" data-skill="Node.js" title="Click to learn more"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-badge" data-skill="PHP" title="Click to learn more"><i class="fab fa-php"></i> PHP</span>
+                        <span class="skill-badge" data-skill="MySQL" title="Click to learn more"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-badge" data-skill="MongoDB" title="Click to learn more"><i class="fab fa-mongodb"></i> MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-badge" data-skill="Git" title="Click to learn more"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-badge" data-skill="GitHub" title="Click to learn more"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-badge" data-skill="VS Code" title="Click to learn more"><i class="fab fa-vscode"></i> VS Code</span>
+                        <span class="skill-badge" data-skill="Figma" title="Click to learn more"><i class="fas fa-mobile-alt"></i> Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2 class="section-title clickable-section" data-section="resume" title="Click to open in new tab" style="cursor: pointer;">Download My Resume</h2>
+            <div class="resume-container">
+                <div class="resume-content">
+                    <div class="resume-info">
+                        <i class="fas fa-file-pdf"></i>
+                        <h3>Complete Resume</h3>
+                        <p>Get a comprehensive overview of my professional background, experience, education, and certifications in PDF format.</p>
+                        <div class="resume-meta">
+                            <span><i class="fas fa-file-download"></i> PDF Format</span>
+                            <span><i class="fas fa-sheet"></i> 1 Page</span>
+                        </div>
+                    </div>
+                    <div class="resume-buttons">
+                        <a href="Shaik_Mahir_Babu_Resume.pdf" download="Shaik_Mahir_Babu_Resume.pdf" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="Shaik_Mahir_Babu_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i> View in Browser
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title clickable-section" data-section="projects" title="Click to open in new tab" style="cursor: pointer;">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-project="shop-easy" style="cursor: pointer;" title="Click to view in new tab">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&w=600" alt="E-commerce Project">
+                    <div class="project-content">
+                        <h3>ShopEasy - Full E-commerce Platform</h3>
+                        <p>Complete Amazon-style shopping platform with cart, checkout, product filtering, and authentication system.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" title="View GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" title="View Live Project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="task-master" style="cursor: pointer;" title="Click to view in new tab">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&w=600" alt="Task Manager">
+                    <div class="project-content">
+                        <h3>TaskMaster Pro</h3>
+                        <p>Advanced task management app with drag & drop, real-time collaboration, and progress tracking.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>SCSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" title="View GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" title="View Live Project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="weather-dash" style="cursor: pointer;" title="Click to view in new tab">
+                    <img src="https://images.unsplash.com/photo-1466781825927-3bdf4e7b374e?ixlib=rb-4.0.3&w=600" alt="Weather App">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather app with 7-day forecast, interactive maps, and location-based alerts.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Mapbox</span>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" title="View GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" title="View Live Project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-project="portfolio" style="cursor: pointer;" title="Click to view in new tab">
+                    <img src="https://images.unsplash.com/photo-1558494949-efed86b4ddb9?ixlib=rb-4.0.3&w=600" alt="Portfolio">
+                    <div class="project-content">
+                        <h3>Personal Portfolio v2.0</h3>
+                        <p>Modern portfolio website with animations, dark/light mode, and interactive elements.</p>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>GSAP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" title="View GitHub Repository"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="project-link" title="View Live Project"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title clickable-section" data-section="contact" title="Click to open in new tab" style="cursor: pointer;">Get In Touch</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's talk about it!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:mahirbabushaik@gmail.com">mahirbabushaik@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p><a href="https://www.linkedin.com/in/mahir-babu-shaik-b7696432a/" target="_blank">linkedin.com/in/mahir-babu-shaik</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p><a href="https://github.com" target="_blank">github.com/mahirdev</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <p><a href="https://www.instagram.com/mahirbabu_76/" target="_blank" rel="noopener noreferrer">@mahirbabu_76</a></p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Mahir</h3>
+                    <p>Full Stack Developer crafting digital experiences.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/mahir-babu-shaik-b7696432a/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mahir. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
